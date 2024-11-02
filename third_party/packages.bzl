@@ -1,8 +1,8 @@
 load("@io_tweag_rules_nixpkgs//nixpkgs:nixpkgs.bzl", "nixpkgs_package")
 
 standard_packages = [
-    "llvm",
     "esptool",
+    "python3",
 ]
 
 def register_packages():
